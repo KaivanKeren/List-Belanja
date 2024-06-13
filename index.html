@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List Belanja</title>
+  <link rel="shortcut icon"
+    href="data:image/png;base64,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"
+    type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="app">
+
+    <h1 class="header">
+      <button class="toggle-btn" @click="toggleDarkMode">
+        <svg v-if="darkMode" xmlns="http://www.w3.org/2000/svg" height="26" width="26" viewBox="0 0 512 512">
+          <path
+            d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"
+            fill="#c2c2c2" />
+        </svg>
+        <svg v-else xmlns="http://www.w3.org/2000/svg" height="26" width="26" viewBox="0 0 384 512">
+          <path
+            d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"
+            fill="#1d212e" />
+        </svg>
+      </button>
+      List Belanja
+    </h1>
+    <div class="form">
+      <form v-on:submit.prevent="addItem">
+        <p>
+          Nama Barang
+          <input type="text" required placeholder="Masukkan nama barang" v-model="itemName">
+        </p>
+        <p>
+          Jumlah barang
+          <input type="number" required placeholder="Masukkan jumlah barang" v-model="itemNumber">
+        </p>
+        <p>
+          Unit:
+          <select v-model="itemUnit">
+            <option value="item">item</option>
+            <option value="kg">kg</option>
+            <option value="gram">gram</option>
+            <option value="liter">liter</option>
+            <option value="ml">ml</option>
+            <option value="ons">ons</option>
+            <option value="pon">pon</option>
+          </select>
+        </p>
+        <button class="add" type="submit">
+          <svg class="icon-add" xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+            <path fill="#ffffff"
+              d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" />
+          </svg>Tambah</button>
+      </form>
+
+    </div>
+
+    <div class="list-form">
+      <div class="list">
+        <p><a class="list-d" @click="showList = !showList">
+            <svg class="icon-list" xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+              <path fill="#ffffff"
+                d="M40 48C26.7 48 16 58.7 16 72v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V72c0-13.3-10.7-24-24-24H40zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM16 232v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V232c0-13.3-10.7-24-24-24H40c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V392c0-13.3-10.7-24-24-24H40z" />
+            </svg>
+          </a><span>List Belanja :</span></p>
+        <ul v-show="showList">
+          <li v-for="(item, index) in listBelanja" :class="{ 'checked': item.checked }">
+            <input type="checkbox" v-model="item.checked">
+            {{ item.name }}, {{ item.number }} {{ item.unit }}
+            <button class="edit" @click="editItem(index)">
+              <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                <path fill="#ffffff"
+                  d="M471.6 21.7c-21.9-21.9-57.3-21.9-79.2 0L362.3 51.7l97.9 97.9 30.1-30.1c21.9-21.9 21.9-57.3 0-79.2L471.6 21.7zm-299.2 220c-6.1 6.1-10.8 13.6-13.5 21.9l-29.6 88.8c-2.9 8.6-.6 18.1 5.8 24.6s15.9 8.7 24.6 5.8l88.8-29.6c8.2-2.7 15.7-7.4 21.9-13.5L437.7 172.3 339.7 74.3 172.4 241.7zM96 64C43 64 0 107 0 160V416c0 53 43 96 96 96H352c53 0 96-43 96-96V320c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H96z" />
+              </svg>
+              <span class="edit-btn">Edit</span></button>
+            <button class="delete" @click="deleteItem(index)">
+              <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+                <path fill="#ffffff"
+                  d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z" />
+              </svg>
+              <span class="del-btn">Hapus</span></button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
