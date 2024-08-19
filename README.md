@@ -1,6 +1,3 @@
-Here's a basic `README.md` file for your Vue.js shopping list application:
-
-
 # Vue.js Shopping List Application
 
 This is a simple shopping list application built using Vue.js. The app allows users to add, edit, and delete items from a shopping list, with the added feature of a dark mode toggle. The list and theme preference are saved in the browser's `localStorage` so that they persist across page reloads.
@@ -59,9 +56,6 @@ You can easily customize the application by modifying the `main.js` and `style.c
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
 ---
 
 Feel free to contribute to this project by submitting issues or pull requests.
-
-```
