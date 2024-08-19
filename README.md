@@ -16,11 +16,11 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/KaivanKeren/shopping-list-app.git
+   git clone https://github.com/KaivanKeren/List-Belanja.git
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd shopping-list-app
+   cd List-Belanja
    ```
 3. **Open the `index.html` file in your browser:**
    Simply open the `index.html` file in your preferred browser to run the application.
